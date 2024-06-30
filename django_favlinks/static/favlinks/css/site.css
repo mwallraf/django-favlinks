@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Title section styling */
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+/* Search bar styling */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-outline-success {
+    border-radius: 0.25rem;
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.card-title a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.text-muted {
+    font-size: 0.875rem;
+}
+
+.card--add-button {
+    background-color: skyblue;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.url-pointer a:hover {
+    cursor: pointer;
+}
+
+
+/* Responsive design */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-control,
+    .btn-outline-success {
+        font-size: 0.875rem;
+    }
+}

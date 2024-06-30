@@ -1,0 +1,5 @@
+django_demo_project/
+.mypy_cache/
+tests/
+*.pyc
+.DS_Store
